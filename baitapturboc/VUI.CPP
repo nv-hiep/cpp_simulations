@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+main () {
+int a, b;
+for (a=1;a<=10;a++)
+{
+for (b=1;b<=10;b++)
+{
+if ((a+b)==(a*b)) printf("%d%d",&a, &b);
+}
+}
+getch();
+}
